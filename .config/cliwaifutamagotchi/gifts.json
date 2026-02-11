@@ -1,0 +1,32 @@
+{
+  "gifts": [
+    {
+      "name": "Chocolate Bar",
+      "happiness": 5
+    },
+    {
+      "name": "Flower Bouquet",
+      "happiness": 10
+    },
+    {
+      "name": "Plushie",
+      "happiness": 15
+    },
+    {
+      "name": "Perfume",
+      "happiness": 15
+    },
+    {
+      "name": "Necklace",
+      "happiness": 20
+    },
+    {
+      "name": "Cute Sticker Pack",
+      "happiness": 3
+    },
+    {
+      "name": "Sketchbook",
+      "happiness": 3
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Waifu",
+  "defaultMessage": "...",
+  "vimNavigation": false,
+  "avatarType": "waifu",
+  "keys": {
+    "encourage": "1",
+    "gift": "2",
+    "dressup": "3",
+    "poseMode": "4",
+    "backgroundMode": "b",
+    "swapGender": "s",
+    "quit": "q"
+  }
+}
