@@ -35,11 +35,11 @@ export PATH="$PATH:/home/kiwi/.local/bin"
 proxy() {
     case "$1" in
         on)
-            export http_proxy="http://127.0.0.1:10808"
-            export https_proxy="http://127.0.0.1:10808"
+            export http_proxy="http://192.168.1.100:8082"
+            export https_proxy="http://192.168.1.100:8082"
             export socks_proxy="socks5://127.0.0.1:10808"
             export ftp_proxy="http://127.0.0.1:10808"
-            export all_proxy="socks5://127.0.0.1:10808"
+            export all_proxy="http://192.168.1.100:8082"
             echo "Proxy enabled."
             ;;
         off)
@@ -70,3 +70,7 @@ silent() {
 neofetch
 ___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
 
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/kiwi/.local/bin:$PATH"

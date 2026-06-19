@@ -2,7 +2,7 @@
 text/plain=visual-studio-code-electron.desktop;
 image/jpeg=firefox.desktop;
 video/mp4=vlc.desktop;mpv.desktop;
-video/x-matroska=mpv.desktop;
+video/x-matroska=mpv.desktop;vlc.desktop;
 application/pdf=firefox.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
@@ -14,6 +14,7 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+text/x-python=vim.desktop;
 
 [Default Applications]
 image/jpeg=feh.desktop
@@ -29,3 +30,4 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+x-scheme-handler/postman=Postman.desktop

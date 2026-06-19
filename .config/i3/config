@@ -212,7 +212,7 @@ bar {
 for_window [class="^.*"] border pixel 0
 
 # set background
-exec_always --no-startup-id feh --bg-fill "/home/kiwi/Pictures/Wallpapers/new/davidcohen-EhSxbBCjr9A-unsplash.jpg" --bg-fill "/home/kiwi/Pictures/Wallpapers/new/davidcohen-EhSxbBCjr9A-unsplash.jpg"
+exec_always --no-startup-id feh --bg-fill "/home/kiwi/Pictures/Wallpapers/current/wallhaven-q67z9d.jpg" --bg-fill "/home/kiwi/Pictures/Wallpapers/current/wallhaven-q67z9d.jpg"
 
 # assign workspaces for programs
 for_window [class="kitty"] move to workspace $ws1
